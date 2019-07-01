@@ -38,7 +38,7 @@ class TiImagepickerModule: TiModule {
     var config = YPImagePickerConfiguration()
 
     // Some hardcoded values that may become configurable in the future
-    config.showsFilters = false
+    config.showsPhotoFilters = false
     config.startOnScreen = .library
     config.screens = [.library, .photo]
     config.shouldSaveNewPicturesToAlbum = false
